@@ -1,0 +1,7 @@
+.Nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    backdrop-filter: blur(5px);
+}

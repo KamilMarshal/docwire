@@ -1,0 +1,10 @@
+.navlogo {
+    display: flex;
+    height: 80px;
+    filter: invert(1);
+    background-color: var(--color-bg);
+}
+
+.navlogo__img {
+    mix-blend-mode: difference;
+}

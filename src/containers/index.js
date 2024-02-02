@@ -1,0 +1,7 @@
+export {default as Nav} from './navbar/NavBar'
+export {default as Header} from './header/Header'
+export {default as Slider} from './slider/Slider'
+export {default as Article} from './article/Article'
+export {default as CTA} from './CTA/CTA'
+export {default as UseCases} from './usecases/UseCases'
+export {default as Footer} from './footer/Footer'
