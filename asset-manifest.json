@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/docwire/static/css/main.a4f1dec4.css",
-    "main.js": "/docwire/static/js/main.03db8958.js",
+    "main.js": "/docwire/static/js/main.1b8b4307.js",
     "static/media/Hero graphics-p-1600.png": "/docwire/static/media/Hero graphics-p-1600.96c4561d4dd1c79877a7.png",
     "static/media/slanted-mail-p-800.png": "/docwire/static/media/slanted-mail-p-800.a27915f7bb633a09d4a5.png",
     "static/media/logoDocWire.JPG": "/docwire/static/media/logoDocWire.1b7fc94e1a27836aa427.JPG",
     "index.html": "/docwire/index.html",
     "main.a4f1dec4.css.map": "/docwire/static/css/main.a4f1dec4.css.map",
-    "main.03db8958.js.map": "/docwire/static/js/main.03db8958.js.map"
+    "main.1b8b4307.js.map": "/docwire/static/js/main.1b8b4307.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f1dec4.css",
-    "static/js/main.03db8958.js"
+    "static/js/main.1b8b4307.js"
   ]
 }
