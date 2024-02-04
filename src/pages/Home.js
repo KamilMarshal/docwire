@@ -1,13 +1,13 @@
-import {Article, CTA, Footer, Header, Nav, Slider, UseCases} from "../containers";
+import {HomeHaveYouEver, CTA, Footer, HomeHeader, Nav, Slider, UseCases} from "../containers";
 
 function Home() {
     return (
         <div className="App">
             <Nav />
-            <Header />
+            <HomeHeader />
             <Slider />
+            <HomeHaveYouEver />
             <CTA />
-            <Article />
             <UseCases />
             <Footer />
         </div>

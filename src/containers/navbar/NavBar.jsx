@@ -1,14 +1,15 @@
 import './navbar.css';
 import React, {useState} from "react";
+import {Link} from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/logoDocWire.JPG'
 
-    const Menu = () =>(
+const Menu = () =>(
         <>
-            <p><a href="#product">Product</a></p>
-            <p><a href="#showcases">Showcases</a></p>
-            <p><a href="#license">License</a></p>
-            <p><a href="#resources">Resources</a></p>
+            <p><Link to="/product">Product</Link></p>
+            <p><Link to="/showcases">Showcases</Link></p>
+            <p><Link to="/license">License</Link></p>
+            <p><Link to="/resources">Resources</Link></p>
         </>
     )
 /*'../../../public/index.html'*/
@@ -18,7 +19,7 @@ function NavBar() {
     return (
         <div className="docwire__navbar">
             <div className="docwire__navbar-links_logo">
-            <a href='../../App.js'><img src={logo} alt="DocWire logo"/></a>
+                <Link to="/"><img src={logo} alt="DocWire logo"/></Link>
             </div>
             <div className="docwire__navbar-links_container">
                 <Menu />

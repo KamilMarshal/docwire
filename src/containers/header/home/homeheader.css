@@ -42,3 +42,13 @@
     object-fit: contain;
     justify-content: center;
 }
+
+@media screen and (max-width: 550px) {
+    .docwire__header-software-content {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .docwire__header-software-content:nth-child(2) {
+        display: none;
+    }
+}

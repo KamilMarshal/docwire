@@ -5,18 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature">
-      <change afterPath="$PROJECT_DIR$/src/containers/header/HomeHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/header/homeheader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/components/home/HomeHaveYouEver.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/components/home/homehaveyouever.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/slider/home/Slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/slider/home/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/License.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Resources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/docwire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/docwire.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/navbar/NavDropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/navbar/NavDropdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/Article.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/article/article.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/HomeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/home/HomeHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/homeheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/home/homeheader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/slider/Slider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/slider/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="JSX File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -63,6 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
     "git-widget-placeholder": "feature/project__structure",
     "last_opened_file_path": "M:/Repos/docwire/public",
     "list.type.of.created.stylesheet": "CSS",
@@ -93,6 +109,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="M:\Repos\docwire\public" />
       <recent name="M:\Repos\docwire\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\containers\slider\home" />
+      <recent name="M:\Repos\docwire\src\containers\components" />
+      <recent name="M:\Repos\docwire\src\containers\article\home" />
+      <recent name="M:\Repos\docwire\src\containers\Home" />
+      <recent name="M:\Repos\docwire\src\containers\header\home" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -136,7 +159,8 @@
       <workItem from="1706888029638" duration="2980000" />
       <workItem from="1706897940062" duration="4880000" />
       <workItem from="1706912423923" duration="4894000" />
-      <workItem from="1707041969751" duration="9932000" />
+      <workItem from="1707041969751" duration="16418000" />
+      <workItem from="1707079943603" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />

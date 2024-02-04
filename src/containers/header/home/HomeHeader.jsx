@@ -1,6 +1,6 @@
 import './homeheader.css';
 import React from "react";
-import MailImage from '../../assets/slanted-mail-p-800.png'
+import MailImage from '../../../assets/slanted-mail-p-800.png'
 
 function HomeHeader() {
     return(

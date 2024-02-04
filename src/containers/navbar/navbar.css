@@ -103,6 +103,18 @@
     .docwire__navbar-menu {
         display: flex;
     }
+
+    .docwire__navbar-getintouch {
+        display: none;
+    }
+
+    .docwire__navbar-menu_container{
+        top: 20px
+    }
+
+    .docwire__navbar-menu_container-links-getintouch {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -116,15 +128,4 @@
         padding: 2rem;
     }
 
-    .docwire__navbar-getintouch {
-        display: none;
-    }
-
-    .docwire__navbar-menu_container{
-        top: 20px
-    }
-
-    .docwire__navbar-menu_container-links-getintouch {
-        display: block;
-    }
 }

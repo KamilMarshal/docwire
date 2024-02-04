@@ -1,13 +1,13 @@
 import {Nav, Slider} from "../containers";
 
-function Product() {
+function Resources() {
     return (
         <div>
             <Nav />
-            <h1>Product</h1>
+            <h1>Resources</h1>
             <Slider />
         </div>
     )
 }
 
-export default Product;
+export default Resources;
