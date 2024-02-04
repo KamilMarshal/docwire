@@ -1,16 +1,18 @@
 import './App.css';
-import {Nav, Header, Slider, CTA, Article, UseCases, Footer} from "./containers";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Home, Product} from './pages'
+
 
 function App() {
   return (
-    <div className="App">
-        <Nav />
-        <Header />
-        <Slider />
-        <CTA />
-        <Article />
-        <UseCases />
-        <Footer />
+    <div>
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path='/home' element={<Home />} />
+                <Route path='/product' element={<Product />} />
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

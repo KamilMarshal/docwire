@@ -1,0 +1,44 @@
+.docwire__header {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+.docwire__header-software {
+    display: flex;
+    width: 80vw;
+    max-width: 1126px;
+    font-family: var(--font-family);
+    background-color: var(--color-bg);
+}
+
+.docwire__header-software-content {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.docwire__header-software-content_header {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.docwire__header-software-content_text {
+    height: auto;
+    max-height: none;
+    color: #7c7c7c;
+    object-fit: fill;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+.docwire__header-software-content img {
+    max-height: 500px;
+    object-fit: contain;
+    justify-content: center;
+}
