@@ -4,7 +4,7 @@ import React from "react";
 function UseCases() {
     return(
         <div className='usecases'>
-            UseCases
+
         </div>
     )
 

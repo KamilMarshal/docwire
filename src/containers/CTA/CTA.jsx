@@ -4,7 +4,7 @@ import React from "react";
 function CTA() {
     return(
         <div className='cta'>
-            CTA
+
         </div>
     )
 

@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/home/UnlockThePower.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/home/unlockthepower.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/home/HomeHaveYouEver.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/HomeHaveYouEver.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/home/homehaveyouever.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/homehaveyouever.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/home/HomeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/home/HomeHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/home/homeheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/home/homeheader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/slider/home/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/slider/home/Slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-    </list>
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update &quot;unlock the power&quot; section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,6 +138,7 @@
       <workItem from="1707737079487" duration="8120000" />
       <workItem from="1708080710451" duration="1438000" />
       <workItem from="1708604991921" duration="3905000" />
+      <workItem from="1708622887696" duration="3317000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -174,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706917248901</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update &quot;unlock the power&quot; section">
+      <option name="closed" value="true" />
+      <created>1708626737359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708626737359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +185,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create project initial structure" />
     <MESSAGE value="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature" />
+    <MESSAGE value="Update &quot;unlock the power&quot; section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update &quot;unlock the power&quot; section" />
   </component>
 </project>
