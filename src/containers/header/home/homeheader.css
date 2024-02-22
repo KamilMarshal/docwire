@@ -17,10 +17,11 @@
     flex-direction: column;
     justify-content: center;
     display: flex;
+    margin-right: 1vw;
 }
 .docwire__header-software-content_header {
     margin-top: 10px;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-weight: 600;
     font-family: var(--font-family);
 }

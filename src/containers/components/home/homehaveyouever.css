@@ -3,7 +3,8 @@
     justify-content: center;
     font-family: var(--font-family);
 }
-.docwire__haveyouever-section{
+
+.docwire__haveyouever-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,11 +73,15 @@
         width: 90vw;
     }
 }
+
 @media screen and (max-width: 550px) {
-    .docwire__haveyouever-section,
-    .docwire__haveyouever-section img {
+    .docwire__haveyouever-section {
         width: 100vw;
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+
+    img {
+        display: none;
     }
 }

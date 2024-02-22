@@ -5,12 +5,13 @@
     padding: 0.5rem 6rem;
 
     backdrop-filter: blur(5px);
-    background-color: var(--color-bg);
+    background-color: transparent;
 }
 
 .docwire__navbar-links_logo {
     margin-right: 2rem;
     display: flex;
+    background-color: var(--color-bg);
 }
 
 .docwire__navbar-links_logo img {
@@ -93,6 +94,16 @@
 
 .docwire__navbar-menu_container-links-getintouch {
     display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 @media screen and (max-width: 1050px) {

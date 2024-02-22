@@ -2,7 +2,7 @@ import './slider.css';
 import React from "react";
 
 function Slider() {
-    return(
+    return (
         <div className='docwire__slider'>
             <div className="docwire__slider-marquee">
                 <div className="docwire__slider-marquee_content">

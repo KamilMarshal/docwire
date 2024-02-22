@@ -1,4 +1,4 @@
-import {HomeHaveYouEver, CTA, Footer, HomeHeader, Nav, Slider, UseCases} from "../containers";
+import {UnlockThePower, HomeHaveYouEver, CTA, Footer, HomeHeader, Nav, Slider, UseCases} from "../containers";
 
 function Home() {
     return (
@@ -7,6 +7,7 @@ function Home() {
             <HomeHeader />
             <Slider />
             <HomeHaveYouEver />
+            <UnlockThePower />
             <CTA />
             <UseCases />
             <Footer />

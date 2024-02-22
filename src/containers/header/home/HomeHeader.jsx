@@ -8,15 +8,14 @@ function HomeHeader() {
             <div className='docwire__header-software'>
                 <div className="docwire__header-software-content">
                     <div className="docwire__header-software-content_header">
-                        Docwire - DocToText, A Dynamic Text Mining SDK, Built For Any OS
+                        DocWire SDK: Award-winning modern data processing in C++20
                     </div>
                     <div className="docwire__header-software-content_text">
                         <p>
-                            DocToText is a powerful text extraction tool built in C++.
-                            With the ability to safely extract structured and unstructured text from nearly all known file formats,
-                            DocToText is the perfect solution for anyone who needs to work with large volumes of text.
-                            Our tool is powered by the Docwire SDK, ensuring fast and accurate text extraction every time.
-                            Whether you're dealing with PDFs, Word documents, or any other file format, DocToText has you covered.
+                            DocWire is a powerful data extraction tool that converts text from nearly all known file formats into searchable
+                            and editable data. Powered by Tesseract OCR engine, DocWire is a solution for digitizing text from many image types,
+                            MS Office files, e-mails or e-mail attachments.
+                            DocWire outputs data to plain text that may be transmitted for further processing.
                         </p>
                     </div>
                 </div>
