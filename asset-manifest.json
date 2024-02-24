@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/docwire/static/css/main.0ef2fd74.css",
-    "main.js": "/docwire/static/js/main.8bb4ae67.js",
+    "main.css": "/docwire/static/css/main.fa2b94ec.css",
+    "main.js": "/docwire/static/js/main.5ba70214.js",
     "static/media/Hero graphics-p-1600.png": "/docwire/static/media/Hero graphics-p-1600.96c4561d4dd1c79877a7.png",
     "static/media/slanted-mail-p-800.png": "/docwire/static/media/slanted-mail-p-800.a27915f7bb633a09d4a5.png",
+    "static/media/Wings.png": "/docwire/static/media/Wings.aca91789c1f0c97c8a1c.png",
     "static/media/logoDocWire.JPG": "/docwire/static/media/logoDocWire.1b7fc94e1a27836aa427.JPG",
     "index.html": "/docwire/index.html",
-    "main.0ef2fd74.css.map": "/docwire/static/css/main.0ef2fd74.css.map",
-    "main.8bb4ae67.js.map": "/docwire/static/js/main.8bb4ae67.js.map"
+    "main.fa2b94ec.css.map": "/docwire/static/css/main.fa2b94ec.css.map",
+    "main.5ba70214.js.map": "/docwire/static/js/main.5ba70214.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ef2fd74.css",
-    "static/js/main.8bb4ae67.js"
+    "static/css/main.fa2b94ec.css",
+    "static/js/main.5ba70214.js"
   ]
 }
