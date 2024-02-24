@@ -1,13 +1,13 @@
 import {Nav, Slider} from "../containers";
 
-function Resources() {
+function AboutUs() {
     return (
         <div>
             <Nav />
-            <h1>Resources</h1>
+            <h1>AboutUs</h1>
             <Slider />
         </div>
     )
 }
 
-export default Resources;
+export default AboutUs;

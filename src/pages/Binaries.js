@@ -1,13 +1,13 @@
 import {Nav, Slider} from "../containers";
 
-function License() {
+function Binaries() {
     return (
         <div>
             <Nav />
-            <h1>License</h1>
+            <h1>Binaries</h1>
             <Slider />
         </div>
     )
 }
 
-export default License;
+export default Binaries;

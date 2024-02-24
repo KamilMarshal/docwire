@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Add &quot;WingsSection&quot;">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/home/WingsSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Binaries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Documentation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/unlockthepower.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/unlockthepower.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/License.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Resources.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="JSX File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,34 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.App.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "git-widget-placeholder": "feature/project__structure",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.install --legacy-peer-deps.executor": "Debug",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/project__structure&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Repos/docwire/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install --legacy-peer-deps.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>

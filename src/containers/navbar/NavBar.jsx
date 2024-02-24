@@ -4,15 +4,6 @@ import {Link} from "react-router-dom";
 import {RiMenu3Line, RiCloseLine} from "react-icons/ri";
 import logo from '../../assets/logoDocWire.JPG'
 
-const Menu = () => (
-    <>
-        {/*<p><Link to="/product">Product</Link></p>*/}
-        {/*<p><Link to="/showcases">Showcases</Link></p>*/}
-        {/*<p><Link to="/license">License</Link></p>*/}
-        {/*<p><Link to="/resources">Resources</Link></p>*/}
-    </>
-)
-
 
 function NavBar() {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -30,11 +21,14 @@ function NavBar() {
             <div className="docwire__navbar-links_logo">
                 <Link to="/"><img src={logo} alt="DocWire logo"/></Link>
             </div>
-            {/*<div className="docwire__navbar-links_container">*/}
-            {/*    <Menu />*/}
-            {/*</div>*/}
+            <div className="docwire__navbar-links_container">
+                <p><Link to="/about-us">About Us</Link></p>
+                <p><Link to="/blog">Blog</Link></p>
+                <p><Link to="/documentation">Documentation</Link></p>
+                <p><Link to="/binaries">Binaries</Link></p>
+            </div>
             <div className='docwire__navbar-getintouch'>
-                <button><Link to="/resources">Download</Link></button>
+                <button><Link to="/contact-us">Get license</Link></button>
             </div>
             <div className="docwire__navbar-menu">
                 {toggleMenu
@@ -43,11 +37,14 @@ function NavBar() {
                 }
                 {toggleMenu && (
                     <div className='docwire__navbar-menu_container scale-up-center'>
-                        {/*<div className='docwire__navbar-menu_container-links'>*/}
-                        {/*    <Menu />*/}
-                        {/*</div>*/}
+                        <div className='docwire__navbar-menu_container-links'>
+                            <p><Link to="/about-us">About Us</Link></p>
+                            <p><Link to="/blog">Blog</Link></p>
+                            <p><Link to="/documentation">Documentation</Link></p>
+                            <p><Link to="/binaries">Binaries</Link></p>
+                        </div>
                         <div className="docwire__navbar-menu_container-links-getintouch">
-                            <button><Link to="/resources">Download</Link></button>
+                            <button><Link to="/contact-us">Get license</Link></button>
                         </div>
                     </div>
                 )}

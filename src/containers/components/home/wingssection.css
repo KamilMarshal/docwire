@@ -53,6 +53,10 @@
     animation: move-breath 5000ms linear infinite;
 }
 
+.docwire__wingssection-container_wings img {
+    width: 100%;
+}
+
 @keyframes move-breath {
     0% {
         transform: translateY(0);
@@ -63,4 +67,33 @@
     100% {
         transform: translateY(0);
     }
+}
+
+@media screen and (max-width: 1250px) {
+    .docwire__wingssection-container_text {
+        width: 60vw;
+    }
+    .docwire__wingssection-container_wings {
+        width: 40vw;
+    }
+    .docwire__wingssection-container_wings img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .docwire__wingssection-container{
+        width: 95vw;
+        flex-direction: column;
+    }
+    .docwire__wingssection-container_text {
+        width: 80vw;
+    }
+    .docwire__wingssection-container_wings {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
 }
