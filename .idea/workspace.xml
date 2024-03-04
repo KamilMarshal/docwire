@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
-      <change afterPath="$PROJECT_DIR$/src/pages/AboutUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Binaries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Documentation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/home/unlockthepower.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/unlockthepower.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/UnlockThePower.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/UnlockThePower.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/WingsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/WingsSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/License.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Resources.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Binaries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Documentation.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +72,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
     &quot;npm.install --legacy-peer-deps.executor&quot;: &quot;Debug&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
@@ -119,6 +113,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -129,6 +133,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.deploy" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
@@ -158,6 +167,8 @@
       <workItem from="1708604991921" duration="3905000" />
       <workItem from="1708622887696" duration="3317000" />
       <workItem from="1708687836864" duration="2276000" />
+      <workItem from="1708807394339" duration="225000" />
+      <workItem from="1709585340303" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
