@@ -1,0 +1,141 @@
+.docwire__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 6rem;
+
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+}
+
+.docwire__navbar-links_logo {
+    margin-right: 2rem;
+    display: flex;
+    background-color: var(--color-bg);
+}
+
+.docwire__navbar-links_logo img {
+    filter: invert(1) brightness(2);
+    mix-blend-mode: difference;
+    height: 65px;
+}
+
+.docwire__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.docwire__navbar-getintouch {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.docwire__navbar-links_container p,
+.docwire__navbar-menu_container p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.docwire__navbar-getintouch button,
+.docwire__navbar-menu_container button {
+    padding: 0.4rem 1rem;
+    color: white;
+    background: #9650fa;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.docwire__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.docwire__navbar-menu svg {
+    cursor: pointer;
+}
+
+.docwire__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #000f2a;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.docwire__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.docwire__navbar-menu_container-links-getintouch {
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+    .docwire__navbar-links_container {
+        display: none;
+    }
+
+    .docwire__navbar-menu {
+        display: flex;
+    }
+
+    .docwire__navbar-getintouch {
+        display: none;
+    }
+
+    .docwire__navbar-menu_container{
+        top: 20px
+    }
+
+    .docwire__navbar-menu_container-links-getintouch {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .docwire__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .docwire__navbar {
+        padding: 2rem;
+    }
+
+}
