@@ -1,0 +1,101 @@
+.docwire__contact {
+    display: flex;
+    justify-content: center;
+}
+
+.docwire__contact-bg {
+    width: 90vw;
+    max-width: none;
+    background-image: var(--gradient-bar);
+    border-radius: 7px;
+    margin-bottom: 10vh;
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+    height: 80vh;
+    align-items: stretch;
+    display: flex;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.docwire__contact-text {
+    font-family: var(--font-family);
+    font-size: 1vw;
+    line-height: 1;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.docwire__contact-text_h1 {
+    text-align: left;
+    font-size: 5.5em;
+    font-weight: 600;
+    letter-spacing: -4px;
+    text-transform: capitalize;
+    white-space: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--font-family);
+    line-height: 1;
+}
+
+.docwire__contact-text_section {
+    width: 80%;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;
+    max-height: none;
+    object-fit: fill;
+    font-family: var(--font-family-Open-Sans);
+}
+
+.docwire__contact-form {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+}
+
+.docwire__contact-form_form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #111;
+    border-radius: 10px;
+    flex: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 50px;
+    color: white;
+}
+
+h2 {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    font-family: var(--font-family);
+    font-size: 32px;
+    line-height: 1;
+}
