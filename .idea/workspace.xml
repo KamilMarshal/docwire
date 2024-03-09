@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/emailTemplates/contactUsEmail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/email/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="JSX File" />
         <option value="CSS File" />
+        <option value="JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -46,6 +41,9 @@
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -68,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Feature/blog",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "M:/Repos/docwire/src/containers/components/contactUs",
     "list.type.of.created.stylesheet": "CSS",

@@ -13,6 +13,8 @@ import {
 import * as React from "react";
 import {Tailwind} from "@react-email/tailwind";
 
+
+
 export const thanksForYourEmail = ({username}) => {
     const previewText = `Thank you ${username} for Contacting DocWire!`;
 
