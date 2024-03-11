@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/email/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +105,7 @@
       <recent name="M:\Repos\docwire\src\containers\slider\home" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -195,7 +187,7 @@
       <workItem from="1709991378525" duration="7915000" />
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
-      <workItem from="1710167553130" duration="19266000" />
+      <workItem from="1710167553130" duration="19773000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -221,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708626737359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fixed">
+      <option name="closed" value="true" />
+      <created>1710195961836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710195961836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +247,8 @@
     <MESSAGE value="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature" />
     <MESSAGE value="Update &quot;unlock the power&quot; section" />
     <MESSAGE value="Add &quot;WingsSection&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;WingsSection&quot;" />
+    <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually" />
+    <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix" />
   </component>
 </project>

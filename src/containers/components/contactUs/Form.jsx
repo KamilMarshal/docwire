@@ -20,12 +20,16 @@ function Form() {
 
     function handleOnSubmit(e) {
         e.preventDefault()
-
+        setIsFormVisible(false)
         emailjs.sendForm('service_kae7du7',
             'template_c6xey6a',
-            e.target,'3KoDxLxb5ljsWpftC').then(res => {
+            e.target, '3KoDxLxb5ljsWpftC').then(res => {
             console.log(res)
-        }).catch(err => console.log(err))
+            setState("success")
+        }).catch(err => {
+            setState("fail")
+            console.log(err)
+        })
     }
 
 
