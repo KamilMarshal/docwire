@@ -13,10 +13,12 @@ function App() {
                     <Route path="/docwire" element={<Home/>}/>
                     <Route path="/about-us" element={<AboutUs/>}/>
                     <Route path="/contact-us" element={<ContactUs/>}/>
+                    <Route path="/docwire/contact-us" element={<ContactUs/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/showcases" element={<Showcases/>}/>
-
+                    <Route path="/showcases" element={<Showcases/>}/>
                     <Route path="*" element={<NoPage/>}/>
+
                 </Routes>
             </BrowserRouter>
         </div>

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
-      <change afterPath="$PROJECT_DIR$/src/api/email/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/email/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -68,7 +71,7 @@
     "ShowUsagesActions.previewPropertyKey": "true",
     "git-widget-placeholder": "Feature/blog",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/contactUs",
+    "last_opened_file_path": "M:/Repos/docwire/src/api/email",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -97,16 +100,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\api\email" />
       <recent name="M:\Repos\docwire\src\containers\components\contactUs" />
       <recent name="M:\Repos\docwire\public" />
       <recent name="M:\Repos\docwire\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire" />
+      <recent name="M:\Repos\docwire\src" />
       <recent name="M:\Repos\docwire\src\containers" />
       <recent name="M:\Repos\docwire\src\emailTemplates" />
       <recent name="M:\Repos\docwire\src\containers\slider\home" />
-      <recent name="M:\Repos\docwire\src\containers\components" />
-      <recent name="M:\Repos\docwire\src\containers\article\home" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -130,6 +134,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -142,6 +156,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.deploy" />
+      <item itemvalue="npm.dev" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
     </list>
@@ -178,6 +193,9 @@
       <workItem from="1709585340303" duration="1092000" />
       <workItem from="1709990544516" duration="756000" />
       <workItem from="1709991378525" duration="7915000" />
+      <workItem from="1710010253260" duration="286000" />
+      <workItem from="1710011107488" duration="151000" />
+      <workItem from="1710167553130" duration="19266000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -208,6 +226,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
