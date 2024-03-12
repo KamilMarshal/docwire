@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating About Us page">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/noPage/NoPageComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/noPage/nopagecomponent.css" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating No Page site">
+      <change afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/TermsOfServiceSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TermsOfService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/AboutUs/AboutUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs/AboutUsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/AboutUs/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs/aboutussection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs/AboutUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/AboutUsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Showcases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="JSX File" />
         <option value="CSS File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -77,7 +75,7 @@
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "Feature/blog",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/NoPage",
+    "last_opened_file_path": "M:/Repos/docwire/src/pages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -106,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\pages" />
       <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
       <recent name="M:\Repos\docwire\src\containers\components" />
       <recent name="M:\Repos\docwire\src\api\email" />
       <recent name="M:\Repos\docwire\src\containers\components\contactUs" />
-      <recent name="M:\Repos\docwire\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
@@ -192,7 +190,7 @@
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
-      <workItem from="1710273996776" duration="5005000" />
+      <workItem from="1710273996776" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -242,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710277051689</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creating No Page site">
+      <option name="closed" value="true" />
+      <created>1710279150649</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710279150649</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +278,7 @@
     <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix" />
     <MESSAGE value="Small but meaningful change" />
     <MESSAGE value="Creating About Us page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating About Us page" />
+    <MESSAGE value="Creating No Page site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating No Page site" />
   </component>
 </project>

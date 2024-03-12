@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Home, Showcases, ContactUs, AboutUs, NoPage, Blog} from './pages'
+import {Home, Showcases, ContactUs, AboutUs, NoPage, Blog, TermsOfService} from './pages'
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
                     <Route path="/docwire/contact-us" element={<ContactUs/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/showcases" element={<Showcases/>}/>
+                    <Route path="/terms-of-service" element={<TermsOfService/>}/>
                     <Route path="*" element={<NoPage/>}/>
                 </Routes>
             </BrowserRouter>
