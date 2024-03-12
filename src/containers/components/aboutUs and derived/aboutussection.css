@@ -62,3 +62,52 @@
     font-size: min(1em, 16px);
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 991px) {
+    .docwire__aboutus-content {
+        width: 90vw;
+    }
+    .about {
+        align-self: flex-start;
+        font-size: 64px;
+    }
+    .who {
+        margin-bottom: 10px;
+    }
+    .history {
+        font-size: min(1.2em, 20px);
+    }
+    .paragraph {
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        letter-spacing: -3px;
+    }
+    .history {
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .about {
+        text-align: left;
+        letter-spacing: -1px;
+        font-size: 2rem;
+    }
+    .who {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+    .history {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .paragraph {
+        margin-bottom: 1rem;
+    }
+}

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating No Page site">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/TermsOfServiceSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TermsOfService.js" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Terms Of Service site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs/AboutUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/AboutUsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +182,7 @@
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
-      <workItem from="1710273996776" duration="7491000" />
+      <workItem from="1710273996776" duration="8364000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -248,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710279150649</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creating Terms Of Service site">
+      <option name="closed" value="true" />
+      <created>1710282180305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710282180305</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +279,7 @@
     <MESSAGE value="Small but meaningful change" />
     <MESSAGE value="Creating About Us page" />
     <MESSAGE value="Creating No Page site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating No Page site" />
+    <MESSAGE value="Creating Terms Of Service site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Terms Of Service site" />
   </component>
 </project>
