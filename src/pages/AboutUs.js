@@ -1,11 +1,11 @@
-import {Nav, Slider} from "../containers";
+import {Nav, AboutUsSection} from "../containers";
 
 function AboutUs() {
     return (
         <div>
             <Nav />
-            <h1>AboutUs</h1>
-            <Slider />
+            <AboutUsSection />
+
         </div>
     )
 }

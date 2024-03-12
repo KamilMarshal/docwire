@@ -64,7 +64,7 @@ function Form() {
                         <p className="AcceptedParagraph">
                             {State === "success" ?
                                 "Message has been sent :)"
-                                : "Message failed to send :("}
+                                : "Sending..."}
                         </p>
                     </div>
                 )}
