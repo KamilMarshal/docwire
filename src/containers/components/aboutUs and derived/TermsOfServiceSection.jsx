@@ -4,7 +4,7 @@ function TermsOfServiceSection() {
     return (
         <div className="docwire__aboutus">
             <div className="docwire__aboutus-content">
-                <h1 className="about">Terms of Service</h1>
+                <h1 className="about">Terms of Use</h1>
                 <p className="history">
                     <strong>
                         Welcome to DocWire. By using this Website, you agree to be bound by these terms of use (the
