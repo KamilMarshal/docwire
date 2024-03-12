@@ -16,9 +16,7 @@ function App() {
                     <Route path="/docwire/contact-us" element={<ContactUs/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/showcases" element={<Showcases/>}/>
-                    <Route path="/showcases" element={<Showcases/>}/>
                     <Route path="*" element={<NoPage/>}/>
-
                 </Routes>
             </BrowserRouter>
         </div>

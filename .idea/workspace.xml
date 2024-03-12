@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Small but meaningful change">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/AboutUs/AboutUsSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/AboutUs/aboutussection.css" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating About Us page">
+      <change afterPath="$PROJECT_DIR$/src/containers/components/noPage/NoPageComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/components/noPage/nopagecomponent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/AboutUs/AboutUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs/AboutUsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/AboutUs/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs/aboutussection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Showcases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/containers/components/AboutUs/aboutussection.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,35 +65,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Feature/blog&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;M:/Repos/docwire/src/api/email&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
-    &quot;npm.install --legacy-peer-deps.executor&quot;: &quot;Debug&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.App.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "Feature/blog",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/NoPage",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.deploy.executor": "Run",
+    "npm.install --legacy-peer-deps.executor": "Debug",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -98,17 +106,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
+      <recent name="M:\Repos\docwire\src\containers\components" />
       <recent name="M:\Repos\docwire\src\api\email" />
       <recent name="M:\Repos\docwire\src\containers\components\contactUs" />
       <recent name="M:\Repos\docwire\public" />
-      <recent name="M:\Repos\docwire\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
       <recent name="M:\Repos\docwire" />
       <recent name="M:\Repos\docwire\src" />
       <recent name="M:\Repos\docwire\src\containers" />
       <recent name="M:\Repos\docwire\src\emailTemplates" />
-      <recent name="M:\Repos\docwire\src\containers\slider\home" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -183,7 +192,7 @@
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
-      <workItem from="1710273996776" duration="2889000" />
+      <workItem from="1710273996776" duration="5005000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -225,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710196176802</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating About Us page">
+      <option name="closed" value="true" />
+      <created>1710277051689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710277051689</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +271,7 @@
     <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually" />
     <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix" />
     <MESSAGE value="Small but meaningful change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small but meaningful change" />
+    <MESSAGE value="Creating About Us page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating About Us page" />
   </component>
 </project>
