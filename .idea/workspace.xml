@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Terms Of Service site">
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Updating mobile responsiveness">
+      <change afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/PrivacyPolicy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Privacy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/aboutussection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Showcases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "Feature/blog",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/src/pages",
+    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/aboutUs and derived",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -96,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\containers\components\aboutUs and derived" />
       <recent name="M:\Repos\docwire\src\pages" />
       <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
       <recent name="M:\Repos\docwire\src\containers\components" />
       <recent name="M:\Repos\docwire\src\api\email" />
-      <recent name="M:\Repos\docwire\src\containers\components\contactUs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
@@ -182,7 +187,7 @@
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
-      <workItem from="1710273996776" duration="8364000" />
+      <workItem from="1710273996776" duration="8869000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -248,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710282180305</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updating mobile responsiveness">
+      <option name="closed" value="true" />
+      <created>1710282975674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710282975674</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +293,7 @@
     <MESSAGE value="Creating About Us page" />
     <MESSAGE value="Creating No Page site" />
     <MESSAGE value="Creating Terms Of Service site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Terms Of Service site" />
+    <MESSAGE value="Updating mobile responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating mobile responsiveness" />
   </component>
 </project>
