@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Privacy Policy site">
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Footer site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/TermsOfServiceSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/aboutUs and derived/TermsOfServiceSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CTA/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CTA/CTA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CTA/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CTA/cta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Showcases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,36 +60,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.App.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "Feature/blog",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/aboutUs and derived",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.deploy.executor": "Run",
-    "npm.install --legacy-peer-deps.executor": "Debug",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature/blog&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Repos/docwire/src/containers/components/aboutUs and derived&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install --legacy-peer-deps.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -184,7 +187,8 @@
       <workItem from="1710010253260" duration="286000" />
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
-      <workItem from="1710273996776" duration="10546000" />
+      <workItem from="1710273996776" duration="11042000" />
+      <workItem from="1710358949533" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -266,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710283459023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creating Footer site">
+      <option name="closed" value="true" />
+      <created>1710285441151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710285441151</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +312,7 @@
     <MESSAGE value="Creating Terms Of Service site" />
     <MESSAGE value="Updating mobile responsiveness" />
     <MESSAGE value="Creating Privacy Policy site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Privacy Policy site" />
+    <MESSAGE value="Creating Footer site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Footer site" />
   </component>
 </project>

@@ -1,10 +1,11 @@
-import {Nav, Contact} from "../containers";
+import {Nav, Contact, Footer} from "../containers";
 
 function ContactUs() {
     return (
         <div>
             <Nav />
             <Contact />
+            <Footer />
         </div>
     )
 }

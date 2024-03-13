@@ -4,7 +4,7 @@ function Showcases() {
     return (
         <div>
             <Nav />
-            <h1>Showcases</h1>
+
             <Footer />
         </div>
     )
