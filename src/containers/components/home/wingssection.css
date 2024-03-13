@@ -49,25 +49,10 @@
     text-decoration: none;
 }
 
-.docwire__wingssection-container_wings {
-    animation: move-breath 5000ms linear infinite;
-}
-
 .docwire__wingssection-container_wings img {
     width: 100%;
 }
 
-@keyframes move-breath {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(10vh);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
 
 @media screen and (max-width: 1250px) {
     .docwire__wingssection-container_text {

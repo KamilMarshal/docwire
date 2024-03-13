@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Footer site">
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating CTA section">
+      <change afterPath="$PROJECT_DIR$/src/containers/components/home/InfoSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/components/home/infosection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/CTA/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CTA/CTA.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/CTA/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CTA/cta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Showcases.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Showcases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/WingsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/WingsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/home/wingssection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -188,7 +190,7 @@
       <workItem from="1710011107488" duration="151000" />
       <workItem from="1710167553130" duration="19918000" />
       <workItem from="1710273996776" duration="11042000" />
-      <workItem from="1710358949533" duration="2462000" />
+      <workItem from="1710358949533" duration="7981000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -278,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710285441151</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creating CTA section">
+      <option name="closed" value="true" />
+      <created>1710361483120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361483120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +323,7 @@
     <MESSAGE value="Updating mobile responsiveness" />
     <MESSAGE value="Creating Privacy Policy site" />
     <MESSAGE value="Creating Footer site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Footer site" />
+    <MESSAGE value="Creating CTA section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating CTA section" />
   </component>
 </project>

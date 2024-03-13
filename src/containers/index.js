@@ -12,3 +12,4 @@ export {default as AboutUsSection} from './components/aboutUs and derived/AboutU
 export {default as NoPageComponent} from './components/noPage/NoPageComponent'
 export {default as TermsOfServiceSection} from './components/aboutUs and derived/TermsOfServiceSection'
 export {default as PrivacyPolicy} from './components/aboutUs and derived/PrivacyPolicy'
+export {default as InfoSection} from './components/home/InfoSection'

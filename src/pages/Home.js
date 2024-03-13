@@ -1,17 +1,29 @@
-import {WingsSection, UnlockThePower, HomeHaveYouEver, CTA, Footer, HomeHeader, Nav, Slider, UseCases} from "../containers";
+import {
+    WingsSection,
+    UnlockThePower,
+    HomeHaveYouEver,
+    CTA,
+    Footer,
+    HomeHeader,
+    Nav,
+    Slider,
+    UseCases,
+    InfoSection
+} from "../containers";
 
 function Home() {
     return (
         <div className="App">
-            <Nav />
-            <HomeHeader />
-            <Slider />
-            <HomeHaveYouEver />
-            <UnlockThePower />
-            <WingsSection />
-            <CTA />
-            <UseCases />
-            <Footer />
+            <Nav/>
+            <HomeHeader/>
+            <Slider/>
+            <HomeHaveYouEver/>
+            <UnlockThePower/>
+            <WingsSection/>
+            <CTA/>
+            <InfoSection/>
+            <UseCases/>
+            <Footer/>
         </div>
     )
 }
