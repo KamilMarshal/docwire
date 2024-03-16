@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Home, Showcases, ContactUs, AboutUs, NoPage, Blog, TermsOfService, Privacy, Harpo} from './pages'
+import Tausight from "./pages/Showcases/Tausight";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/showcases" element={<Showcases/>}/>
                     <Route path="/showcases/harpo" element={<Harpo/>}/>
+                    <Route path="/showcases/tausight" element={<Tausight/>}/>
                     <Route path="/terms-of-service" element={<TermsOfService/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
                     <Route path="*" element={<NoPage/>}/>
