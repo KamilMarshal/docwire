@@ -2,7 +2,7 @@ export const data = [
 
     {
         "id": 0,
-        "linkName":"/showcases/harpo",
+        "linkName": "/showcases/harpo",
         "image": 'Harpo logo.png',
         "companyName": "Harpo",
         "showcasesShortInfo": "How Harpo & Docwire software helps visually impaired people to read",
@@ -16,7 +16,7 @@ export const data = [
     },
     {
         "id": 1,
-        "linkName":"/showcases/tausight",
+        "linkName": "/showcases/tausight",
         "image": 'Tausight.png',
         "companyName": "Tausight",
         "showcasesShortInfo": "How proper text extraction helps Tausight alert and prevent leakage of medical information",
@@ -25,16 +25,13 @@ export const data = [
         "whoWeAre": "Existing cybersecurity tools and methods are generic and not specific to the challenges faced in healthcare. Tausight is purpose-built to solve the distinct problems in healthcare.",
         "whatIs": "Tausight is what’s called a ePHI awareness platform, utilizing bleeding-edge systems including machine learning and neural networks to better the security of sensitive information within healthcare.",
         "WhyWereDocwireApproached": "With security as the top priority, Tausight approached us with a unique challenge - Provide a bespoke text mining addon to include in their security monitoring operations with the ability to extract text quickly and securely whilst keeping resource consumption low.",
-        "WhatDidWeDo": "So that’s exactly what we provided! The tool was:\n" +
-            "\n" +
-            "Quick, extracting and feeding live data into their systems\n" +
-            "Lightweight, utilizing C++ binary code to save on resources no matter the machine.\n" +
-            "Secure, the solution can operate locally on any workstation without any external connections to third-party solutions.",
+        "WhatDidWeDo": "So that’s exactly what we provided! The tool was: Quick, extracting and feeding live data into their systems." +
+            " Lightweight, utilizing C++ binary code to save on resources no matter the machine. Secure, the solution can operate locally on any workstation without any external connections to third-party solutions.",
         "WhatWereTheResults": "Docwire and Tausight worked hand in hand to develop a module that, combined with their platform, continuously scans, extracts and flags potential security threats and leaks."
     },
     {
         "id": 2,
-        "linkName":"/showcases/pwcsingapore",
+        "linkName": "/showcases/pwc-singapore",
         "image": 'PWC logo.png',
         "companyName": "PwC Singapore",
         "showcasesShortInfo": "How PwC Singapore utilizes text extraction to embolden their audit & report system",
