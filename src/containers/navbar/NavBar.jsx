@@ -34,6 +34,7 @@ function NavBar() {
                         <div className='docwire__navbar-menu_container-links'>
                             <p><Link to="/about-us">About Us</Link></p>
                             <p><Link to="/blog">Blog</Link></p>
+                            <p><Link to="/showcases">Showcases</Link></p>
                             <p><Link to="https://docwire.readthedocs.io/en/latest/">Documentation</Link></p>
                             <p><Link to="https://github.com/docwire/docwire/releases">Binaries</Link></p>
                         </div>
