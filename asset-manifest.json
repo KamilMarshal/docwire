@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/docwire/static/css/main.3d42b56f.css",
-    "main.js": "/docwire/static/js/main.9b2e9170.js",
+    "main.css": "/docwire/static/css/main.f0ba1435.css",
+    "main.js": "/docwire/static/js/main.08e265ce.js",
+    "static/media/Document.png": "/docwire/static/media/Document.2452c17051b90a5ad3ab.png",
+    "static/media/OCR.png": "/docwire/static/media/OCR.302a81e8ffd43ab0ec32.png",
+    "static/media/HTML.png": "/docwire/static/media/HTML.6a6cf6ff8efd10fb5520.png",
     "static/media/Hero graphics-p-1600.png": "/docwire/static/media/Hero graphics-p-1600.96c4561d4dd1c79877a7.png",
+    "static/media/Excel.png": "/docwire/static/media/Excel.05b42e24ed21fa197704.png",
     "static/media/Formats-transparent-p-1600.png": "/docwire/static/media/Formats-transparent-p-1600.6bced0464ffbb13a0415.png",
+    "static/media/Mail.png": "/docwire/static/media/Mail.df18f0a17f3edcc1f860.png",
+    "static/media/Mockup 1.png": "/docwire/static/media/Mockup 1.deb06212d2c880d0d96e.png",
+    "static/media/Github.png": "/docwire/static/media/Github.f968c33ddc634c5ec49e.png",
+    "static/media/Mockup CLI.png": "/docwire/static/media/Mockup CLI.2c355d8a51e7f73edbfc.png",
     "static/media/slanted-mail-p-800.png": "/docwire/static/media/slanted-mail-p-800.a27915f7bb633a09d4a5.png",
     "static/media/Wings.png": "/docwire/static/media/Wings.aca91789c1f0c97c8a1c.png",
     "static/media/logoDocWire.JPG": "/docwire/static/media/logoDocWire.1b7fc94e1a27836aa427.JPG",
+    "static/media/linkedin.svg": "/docwire/static/media/linkedin.f9a76fc4304efe6111b9.svg",
+    "static/media/github.svg": "/docwire/static/media/github.0a4a67452b88afe49abb.svg",
     "index.html": "/docwire/index.html",
-    "main.3d42b56f.css.map": "/docwire/static/css/main.3d42b56f.css.map",
-    "main.9b2e9170.js.map": "/docwire/static/js/main.9b2e9170.js.map"
+    "static/media/Lightning.svg": "/docwire/static/media/Lightning.408599474eb00c16136b.svg",
+    "static/media/facebook.svg": "/docwire/static/media/facebook.501cb74b0e528cb60b53.svg",
+    "main.f0ba1435.css.map": "/docwire/static/css/main.f0ba1435.css.map",
+    "main.08e265ce.js.map": "/docwire/static/js/main.08e265ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d42b56f.css",
-    "static/js/main.9b2e9170.js"
+    "static/css/main.f0ba1435.css",
+    "static/js/main.08e265ce.js"
   ]
 }
