@@ -151,3 +151,156 @@
         font-size: min(1em, 16px);
     }
 }
+
+@media screen and (max-width: 991px) {
+    .docwire__info-intro_section1 {
+        margin-bottom: 0;
+
+        h1 {
+            align-self: flex-start;
+            font-size: 64px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
+
+    .docwire__info-intro_section2-text {
+        width: 50%;
+        max-height: 100%;
+        min-height: auto;
+        justify-content: center;
+    }
+
+    .docwire__info-intro_section2 {
+        width: 90vw;
+        margin-bottom: 10vh;
+        padding-top: 60px;
+    }
+
+    .docwire__info-top {
+        h3 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        p {
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+    }
+
+    .docwire__info-bottom {
+        h4 {
+            margin-bottom: 7px;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    }
+
+    .docwire__info-intro_section2-gradient {
+        width: 50%;
+        max-height: 350px;
+        margin-left: 10px;
+
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .docwire__info-intro_section1 {
+        padding-top: 60px;
+
+        h1 {
+            letter-spacing: -3px;
+        }
+    }
+
+    .docwire__info-intro_section2 {
+        width: 90vw;
+        flex-direction: column-reverse;
+        margin-bottom: 5vh;
+
+        .docwire__info-intro_section2-text {
+            width: 100%;
+            align-self: auto;
+            align-items: center;
+            padding-right: 0;
+            display: flex;
+            max-width: 100%;
+            flex-direction: column;
+
+            .docwire__info-top {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .docwire__info-bottom {
+        h4 {
+            font-size: 16px;
+            display: flex;
+            overflow: visible;
+        }
+    }
+
+    .docwire__info-intro_section2-gradient {
+        width: 100%;
+        max-height: 250px;
+        margin-left: 0;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .docwire__info-intro_section1 {
+        width: 90vw;
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+
+        h1 {
+            text-align: left;
+            letter-spacing: -1px;
+            font-size: 10em;
+        }
+
+        h2 {
+            max-width: 100%;
+            text-align: left;
+            font-size: 16px;
+        }
+    }
+
+    .docwire__info-top {
+        h3 {
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+    }
+
+    .docwire__info-bottom {
+        h4 {
+            margin-bottom: 3px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+    }
+
+    .docwire__info-intro_section2-gradient {
+        max-height: 180px;
+    }
+}
