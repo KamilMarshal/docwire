@@ -1,11 +1,11 @@
-import {Footer, Nav,} from "../containers";
+import {Footer, Nav, UseCases,} from "../containers";
 
 function Showcases() {
     return (
         <div>
-            <Nav />
-
-            <Footer />
+            <Nav/>
+            <UseCases/>
+            <Footer/>
         </div>
     )
 }

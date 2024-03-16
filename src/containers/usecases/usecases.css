@@ -1,0 +1,210 @@
+.docwire__usecases {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.docwire__usecases-hero {
+    width: 80vw;
+    height: auto;
+    max-width: 1126px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+    display: flex;
+}
+
+.docwire__usecases-hero_top {
+    max-width: 70%;
+
+    h1 {
+        color: #fff;
+        margin-top: 3.5rem;
+        font-family: var(--font-family);
+        font-size: 3.5em;
+        margin-bottom: 1.5rem;
+
+        span {
+            color: #9747ff;
+        }
+    }
+
+    p {
+        width: auto;
+        max-width: 1126px;
+        color: #7c7c7c;
+        margin-bottom: 100px;
+        font-family: var(--font-family-Open-Sans);
+        font-weight: 600;
+        line-height: 1.4;
+        text-decoration: none;
+        font-size: min(1.2em, 20px);
+    }
+}
+
+.docwire__usecases-hero_bottom {
+    width: 80vw;
+    max-width: 1126px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.docwire__usecases-single {
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    margin-bottom: 80px;
+    width: 33%;
+
+    h2 {
+        line-height: 36px;
+        color: #fff;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: var(--font-family);
+        font-size: min(1.2em, 20px);
+        font-weight: 600;
+    }
+
+    p {
+        height: auto;
+        max-height: none;
+        color: #7c7c7c;
+        object-fit: fill;
+        font-family: Open Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.6;
+        overflow: hidden;
+    }
+}
+
+.docwire__usecases-single_wrapper {
+    background-image: var(--gradient-bar);
+    border-radius: 12px;
+
+}
+
+
+.docwire__usecases-single_wrapper_img {
+    width: auto;
+    height: 200px;
+    background-color: var(--color-lighter-bg);
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translate3d(-8px, -8px, 0);
+}
+
+.docwire__usecases-single_wrapper_img img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    object-fit: contain;
+}
+
+.docwire__usecases-single_wrapper_img img :hover {
+    transform: none;
+    animation: none;
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .docwire__usecases-hero {
+        width: 90vw;
+    }
+
+    .docwire__usecases-hero_top {
+        max-width: 80%;
+
+        h1 {
+            max-width: 100%;
+            font-size: 42px;
+        }
+    }
+
+    .docwire__usecases-hero_bottom {
+        width: 90vw;
+    }
+
+    .docwire__usecases-single {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .docwire__usecases-hero_top {
+        max-width: 100%;
+    }
+
+    .docwire__usecases-hero_top {
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+    }
+
+    .docwire__usecases-hero_bottom {
+        flex-flow: wrap;
+        display: block;
+    }
+
+    .docwire__usecases-single {
+        width: 100%;
+        left: auto;
+        right: auto;
+        a {
+            width: 100%;
+            .docwire__usecases-single_wrapper_img {
+                height: 150px;
+            }
+            h2 {
+                margin-bottom: 5px;
+                font-size: 16px;
+            }
+        }
+        p {
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .docwire__usecases-hero_top {
+        h1 {
+            max-width: 100%;
+            font-size: 32px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+    }
+
+    .docwire__usecases-hero_bottom {
+        margin-bottom: 20px;
+    }
+
+
+    .docwire__usecases-single {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
