@@ -18,8 +18,8 @@ function NavBar() {
                 <p><Link to="/about-us">About Us</Link></p>
                 <p><Link to="/blog">Blog</Link></p>
                 <p><Link to="/showcases">Showcases</Link></p>
-                <p><Link to="https://docwire.readthedocs.io/en/latest/">Documentation</Link></p>
-                <p><Link to="https://github.com/docwire/docwire/releases">Binaries</Link></p>
+                <p><Link to="https://docwire.readthedocs.io/en/latest/" target="_blank">Documentation</Link></p>
+                <p><Link to="https://github.com/docwire/docwire/releases" target="_blank">Binaries</Link></p>
             </div>
             <div className='docwire__navbar-getintouch'>
                 <button><Link to="/contact-us">Contact Us</Link></button>
@@ -35,8 +35,8 @@ function NavBar() {
                             <p><Link to="/about-us">About Us</Link></p>
                             <p><Link to="/blog">Blog</Link></p>
                             <p><Link to="/showcases">Showcases</Link></p>
-                            <p><Link to="https://docwire.readthedocs.io/en/latest/">Documentation</Link></p>
-                            <p><Link to="https://github.com/docwire/docwire/releases">Binaries</Link></p>
+                            <p><Link to="https://docwire.readthedocs.io/en/latest/" target="_blank">Documentation</Link></p>
+                            <p><Link to="https://github.com/docwire/docwire/releases" target="_blank">Binaries</Link></p>
                         </div>
                         <div className="docwire__navbar-menu_container-links-getintouch">
                             <button><Link to="/contact-us">Contact Us</Link></button>

@@ -13,7 +13,7 @@ function CTA() {
                     </div>
                 </div>
                 <div className="docwire__cta-button">
-                    <a href="https://github.com/docwire/docwire/releases">Download Binaries</a>
+                    <a href="https://github.com/docwire/docwire/releases" target="_blank" rel="noreferrer">Download Binaries</a>
                 </div>
             </div>
         </div>

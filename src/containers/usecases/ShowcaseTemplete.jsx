@@ -13,7 +13,7 @@ function ShowcaseTemplate(props) {
                     <h1>{props.companyName}</h1>
                     <h2>{props.subtitle}</h2>
                     <div className="docwire__showcase-template_header-buttons">
-                        <Link to={props.website} className="link">
+                        <Link to={props.website} className="link" target="_blank">
                             <div>Website</div>
                             <HiExternalLink className="icon"/>
                         </Link>
