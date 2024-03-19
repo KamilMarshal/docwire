@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating &quot;So, What Can It Do?&quot; section">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/ScrollToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating scroll to top functionality">
+      <change afterPath="$PROJECT_DIR$/public/getposts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Posts/firstpost.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Posts/secondPost.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,7 @@
       <workItem from="1710600771678" duration="27218000" />
       <workItem from="1710633179900" duration="676000" />
       <workItem from="1710704590236" duration="747000" />
-      <workItem from="1710884893480" duration="847000" />
+      <workItem from="1710884893480" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -297,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710367068411</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Creating scroll to top functionality">
+      <option name="closed" value="true" />
+      <created>1710885825236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710885825236</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +343,7 @@
     <MESSAGE value="Creating Footer site" />
     <MESSAGE value="Creating CTA section" />
     <MESSAGE value="Creating &quot;So, What Can It Do?&quot; section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating &quot;So, What Can It Do?&quot; section" />
+    <MESSAGE value="Creating scroll to top functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating scroll to top functionality" />
   </component>
 </project>

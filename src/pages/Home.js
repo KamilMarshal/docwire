@@ -7,7 +7,6 @@ import {
     HomeHeader,
     Nav,
     Slider,
-    UseCases,
     InfoSection
 } from "../containers";
 
@@ -22,7 +21,6 @@ function Home() {
             <WingsSection/>
             <CTA/>
             <InfoSection/>
-            <UseCases/>
             <Footer/>
         </div>
     )
