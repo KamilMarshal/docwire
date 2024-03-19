@@ -15,3 +15,4 @@ export {default as TermsOfServiceSection} from './components/aboutUs and derived
 export {default as PrivacyPolicy} from './components/aboutUs and derived/PrivacyPolicy'
 export {default as InfoSection} from './components/home/InfoSection'
 export {default as ShowcaseTemplate} from './usecases/ShowcaseTemplete'
+export {default as ScrollToTop} from './components/ScrollToTop'

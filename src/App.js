@@ -13,11 +13,13 @@ import {
     Tausight,
     PwCSingapore
 } from './pages'
+import {ScrollToTop} from "./containers";
 
 function App() {
     return (
         <div>
             <BrowserRouter>
+                <ScrollToTop/>
                 <Routes>
                     <Route index element={<Home/>}/>
                     <Route path="/" element={<Home/>}/>
