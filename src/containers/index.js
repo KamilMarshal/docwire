@@ -16,3 +16,7 @@ export {default as PrivacyPolicy} from './components/aboutUs and derived/Privacy
 export {default as InfoSection} from './components/home/InfoSection'
 export {default as ShowcaseTemplate} from './usecases/ShowcaseTemplete'
 export {default as ScrollToTop} from './components/ScrollToTop'
+export {default as PostTemplate} from './components/blog/PostTemplate'
+export {default as ShortPostTemplate} from './components/blog/ShortPostTemplate'
+export {default as PostList} from './components/blog/postlist'
+

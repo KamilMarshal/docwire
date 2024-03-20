@@ -1,0 +1,21 @@
+.docwire__postList {
+    height: auto;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15vh;
+    display: flex;
+    overflow: visible;
+}
+
+.docwire__postList_blog-container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    height: auto;
+    max-width: 1126px;
+    padding-top: 150px;
+    border-right: 1px solid #9650fa;
+}

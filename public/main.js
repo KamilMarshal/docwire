@@ -1,7 +1,5 @@
 const path = require("path")
 const fs = require("fs")
-const {getMetadata} = require("next/dist/server/lib/squoosh/main");
-const metadata = require("next/dist/server/typescript/rules/metadata");
 
 const dirPath = path.join(__dirname, "../src/pages/Posts")
 let postList = []
@@ -25,7 +23,7 @@ const main = () => {
                     if (metadataIndicies.length > 0) {
                         let metadata = lines.slice(metadataIndicies[0] + 1, metadataIndicies[1])
                         metadata.forEach(line => {
-                            obj[line.split(": ")[0]] = line.split(": ")[1]
+                            obj[line.split(": ")[0]] = line.split(": ")[1].slice(0, -1)
                         })
                         return obj
                     }
@@ -44,6 +42,8 @@ const main = () => {
                     id: i,
                     title: metadata.title ? metadata.title : "No title given",
                     author: metadata.author ? metadata.author : "No author given",
+                    authorImage: metadata.authorImage ? metadata.authorImage : "No author image given",
+                    preview: metadata.preview ? metadata.preview : "No preview given",
                     date: metadata.date ? metadata.date : "No date given",
                     content: content ? content : "No content given",
                 }

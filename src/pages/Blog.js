@@ -1,10 +1,11 @@
-import {Footer, Nav} from "../containers";
+import {Footer, Nav, PostList} from "../containers";
+import React from "react";
 
 function Blog() {
     return (
         <div>
             <Nav />
-            <h1>Blog</h1>
+            <PostList/>
             <Footer />
         </div>
     )
