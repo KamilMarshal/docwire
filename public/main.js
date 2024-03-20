@@ -6,8 +6,8 @@ const metadata = require("next/dist/server/typescript/rules/metadata");
 const dirPath = path.join(__dirname, "../src/pages/Posts")
 let postList = []
 
-const getPosts = async () => {
-    await fs.readdir(dirPath, (err, files) => {
+const main = () => {
+     fs.readdir(dirPath, (err, files) => {
         if (err) {
             return console.log("Fail to list contents of directory: " + err)
         }
@@ -48,12 +48,14 @@ const getPosts = async () => {
                     content: content ? content : "No content given",
                 }
                 postList.push(post)
+                if (i === files.length - 1) {
+                    let data = JSON.stringify(postList)
+                    fs.writeFileSync("src/posts.json", data)
+                }
             })
         })
     })
-    setTimeout(() => {
-        console.log(postList)
-    }, 500)
+    return
 }
 
-getPosts()
+main()

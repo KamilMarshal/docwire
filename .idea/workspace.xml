@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating scroll to top functionality">
-      <change afterPath="$PROJECT_DIR$/public/getposts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/firstpost.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/secondPost.md" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Blog part 1/6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/getposts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,8 @@
       <workItem from="1710600771678" duration="27218000" />
       <workItem from="1710633179900" duration="676000" />
       <workItem from="1710704590236" duration="747000" />
-      <workItem from="1710884893480" duration="3681000" />
+      <workItem from="1710884893480" duration="4269000" />
+      <workItem from="1710949989629" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -306,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710885825236</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Creating Blog part 1/6">
+      <option name="closed" value="true" />
+      <created>1710888676190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710888676190</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +350,7 @@
     <MESSAGE value="Creating CTA section" />
     <MESSAGE value="Creating &quot;So, What Can It Do?&quot; section" />
     <MESSAGE value="Creating scroll to top functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating scroll to top functionality" />
+    <MESSAGE value="Creating Blog part 1/6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Blog part 1/6" />
   </component>
 </project>
