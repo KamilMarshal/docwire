@@ -4,17 +4,13 @@ import postlist from '../../../posts.json'
 import {ShortPostTemplate} from "../../index";
 
 const PostList = (props) => {
-    const excerptList = postlist.map(post => {
-        return post.content.split(" ").slice(0, 40).join(" ") + "..."
-    })
-
     return (
         <div className="docwire__postList">
             <div className="docwire__postList_blog-container">
                 {postlist.length &&
                     postlist.map((post, i) => {
                         return (
-                            <ShortPostTemplate key={i} props={post} content={excerptList[i]}/>
+                            <ShortPostTemplate key={i} props={post}/>
                         )
                     })
                 }

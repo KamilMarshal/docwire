@@ -46,6 +46,7 @@ const main = () => {
                     author: metadata.author ? metadata.author : "No author given",
                     authorImage: metadata.authorImage ? metadata.authorImage : "No author image given",
                     preview: metadata.preview ? metadata.preview : "No preview given",
+                    introduction: metadata.introduction ? metadata.introduction : "No introduction given",
                     date: metadata.date ? metadata.date : "No date given",
                     content: content ? content : "No content given",
                 }
