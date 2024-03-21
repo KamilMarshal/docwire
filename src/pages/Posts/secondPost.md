@@ -3,7 +3,7 @@ title: Second Post KM
 author: Konrad Marszałek
 authorImage: Ferid-headshot.png
 preview: preview.jpg
-date: 19.03.2023
+date: March 20, 2023
 ---
 
 ## Welcome to DocWire SDK blog2!

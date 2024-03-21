@@ -5,11 +5,11 @@ const dirPath = path.join(__dirname, "../src/pages/Posts")
 let postList = []
 
 const main = () => {
-     fs.readdir(dirPath, (err, files) => {
+    fs.readdir(dirPath, (err, files) => {
         if (err) {
             return console.log("Fail to list contents of directory: " + err)
         }
-        files.forEach((file, i) => {
+         files.forEach((file, i) => {
             let obj = {}
             let post
             fs.readFile(`${dirPath}/${file}`, "utf-8", (err, contents) => {
@@ -38,8 +38,10 @@ const main = () => {
                 const metadataIndicies = lines.reduce(getMetadataIndicies, [])
                 const metadata = parseMetadata({lines, metadataIndicies})
                 const content = parseContent({lines, metadataIndicies})
+                const date = new Date(metadata.date)
+                const timestamp = date.getTime() / 1000
                 post = {
-                    id: i,
+                    id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
                     author: metadata.author ? metadata.author : "No author given",
                     authorImage: metadata.authorImage ? metadata.authorImage : "No author image given",
@@ -49,13 +51,15 @@ const main = () => {
                 }
                 postList.push(post)
                 if (i === files.length - 1) {
-                    let data = JSON.stringify(postList)
+                    const sortedList = postList.sort ((a, b) => {
+                        return a.id < b.id ? 1 : -1
+                    })
+                    let data = JSON.stringify(sortedList)
                     fs.writeFileSync("src/posts.json", data)
                 }
             })
         })
     })
-    return
 }
 
 main()

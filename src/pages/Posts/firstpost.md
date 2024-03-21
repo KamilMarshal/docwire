@@ -3,7 +3,7 @@ title: First Post KM
 author: Kamil Marszałek
 authorImage: Ferid-headshot.png
 preview: preview.jpg
-date: 19.03.2023
+date: March 19, 2023
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan vulputate placerat. Vestibulum ligula turpis,

@@ -3,7 +3,7 @@ title: The 4th Industrial Revolution
 author: Ferid Obeidat
 authorImage: Ferid-headshot.png
 preview: preview.jpg
-date: November 29, 2022
+date: March 21, 2023
 ---
 
 In recent years, there has been a dispute regarding whether we have already entered the 4th industrial revolution.
