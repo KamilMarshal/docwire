@@ -1,5 +1,6 @@
 import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Favicon from "react-favicon";
 import {
     Home,
     Showcases,
@@ -14,10 +15,12 @@ import {
     PwCSingapore
 } from './pages'
 import {ScrollToTop} from "./containers";
+import FaviconLogo from './assets/FaviconLogo.png'
 
 function App() {
     return (
         <div>
+            <Favicon url={FaviconLogo}/>
             <BrowserRouter>
                 <ScrollToTop/>
                 <Routes>
