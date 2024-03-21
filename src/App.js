@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import Favicon from "react-favicon";
 import {
     Home,
@@ -27,8 +27,8 @@ function App() {
                 <Routes>
                     <Route index element={<Home/>}/>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/home" element={<Home/>}/>
-                    <Route path="/docwire" element={<Home/>}/>
+                    <Route path="/home" element={<Navigate to="/"/>}/>
+                    <Route path="/docwire" element={<Navigate to="/"/>}/>
                     <Route path="/about-us" element={<AboutUs/>}/>
                     <Route path="/contact-us" element={<ContactUs/>}/>
                     <Route path="/docwire/contact-us" element={<ContactUs/>}/>
