@@ -1,12 +1,12 @@
-import {NoPageComponent} from "../containers";
+import {NoBlogPageComponent} from "../containers";
 
-function NoPage() {
+function NoBlogPage() {
         document.title = "Page not found"
     return (
         <div>
-            <NoPageComponent />
+            <NoBlogPageComponent />
         </div>
     )
 }
 
-export default NoPage;
+export default NoBlogPage;

@@ -7,6 +7,7 @@ import {
     ContactUs,
     AboutUs,
     NoPage,
+    NoBlogPage,
     Blog,
     TermsOfService,
     Privacy,
@@ -38,6 +39,7 @@ function App() {
                     <Route path="/showcases/pwc-singapore" element={<PwCSingapore/>}/>
                     <Route path="/terms-of-service" element={<TermsOfService/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
+                    <Route path="/error404" element={<NoBlogPage/>}/>
                     <Route path="*" element={<NoPage/>}/>
                 </Routes>
             </BrowserRouter>
