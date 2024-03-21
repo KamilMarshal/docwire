@@ -11,6 +11,7 @@ import {
 } from "../containers";
 
 function Home() {
+    document.title = "Home | Docwire"
     return (
         <div className="App">
             <Nav/>
