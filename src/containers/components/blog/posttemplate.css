@@ -32,7 +32,6 @@
         }
 
         .docwire__full-post-template_link {
-            color: var(--grey);
             margin-top: 0;
             font-family: var(--font-family-Open-Sans);
             font-size: 16px;
@@ -40,7 +39,12 @@
             font-weight: 600;
         }
 
+        a {
+            color: var(--color-text-blog);
+        }
+
         p {
+            color: var(--grey);
             cursor: default;
         }
     }
@@ -49,7 +53,6 @@
         width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: center;
         background-color: var(--color-lighter-bg);
 
         .docwire__full-post-template_title {
@@ -95,7 +98,7 @@
                 display: flex;
                 align-items: center;
                 flex-grow: 1;
-                padding-left: 1rem;
+                padding-left: 4rem;
 
                 img {
                     margin-right: 15px;
@@ -120,8 +123,47 @@
         }
 
         .docwire__full-post-template_md-content {
+            padding: 1rem 2rem 2rem;
+            color: var(--color-text-blog);
+            font-family: var(--font-family-Open-Sans);
 
+            h2 {
+                font-size: 27px;
+                font-family: var(--font-family-Open-Sans);
+                font-weight: 600;
+            }
 
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 17px;
+                max-width: 1126px;
+                color: var(--color-text-blog);
+                margin-bottom: 2rem;
+                margin-top: 0.5rem;
+                margin-left: 1.5rem;
+                font-family: var(--font-family-Open-Sans);
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+            ul {
+                font-size: 17px;
+                max-width: 1126px;
+                color: var(--color-text-blog);
+                margin-bottom: 2rem;
+                margin-top: 0.5rem;
+                margin-left: 1.5rem;
+                font-family: var(--font-family-Open-Sans);
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+            code {
+                width: 50%;
+            }
         }
     }
 

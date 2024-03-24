@@ -5,6 +5,8 @@ import Markdown from "react-markdown";
 
 function ShortPostTemplate(props) {
     props = props.props
+    const link = "/blog/" + props.id
+    console.log(link)
     return (
         <div className="docwire__short-post-template">
             <div className="docwire__short-post-template_top">
@@ -18,13 +20,13 @@ function ShortPostTemplate(props) {
                         <p><Markdown children={props.introduction}/></p>
                     </div>
                     <div className="docwire__short-post-template_left-link">
-                        <Link to={'/blog/:'}>
+                        <Link to={link}>
                             <div className="docwire__short-post-template_left-link_read">Read article</div>
                             <div className="docwire__short-post-template_left-link_arrow"><HiArrowRight/></div>
                         </Link>
                     </div>
                 </div>
-                <div className="docwire__short-post-template_right">
+                    <div className="docwire__short-post-template_right">
                     <div className="docwire__short-post-template_right-author">
                         {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                         <img src={require(`../../../assets/${props.authorImage}`)} alt="Author image"/>

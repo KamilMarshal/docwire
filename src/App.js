@@ -18,7 +18,6 @@ import {
 import {PostTemplate, ScrollToTop} from "./containers";
 import FaviconLogo from './assets/FaviconLogo.png'
 
-
 function App() {
     return (
         <div>

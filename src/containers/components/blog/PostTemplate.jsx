@@ -1,10 +1,14 @@
 import './posttemplate.css'
 import {useParams, Navigate, Link} from 'react-router-dom'
 import postlist from '../../../posts.json'
-import Markdown from "react-markdown";
-import {HiArrowRight, HiChevronRight} from "react-icons/hi";
+import Markdown from "markdown-to-jsx";
+import {HiChevronRight} from "react-icons/hi";
 import NavBar from "../../navbar/NavBar";
 import {Footer} from "../../index";
+import Code from './Code'
+import {createContext, useState} from "react";
+
+    export const ThemeContext = createContext(true);
 
 function PostTemplate() {
     const props = useParams()
@@ -20,7 +24,16 @@ function PostTemplate() {
             fetchPost = post
         }
     })
+
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [isDark, setIsDark] = useState(true);
+
+    const value = {
+        isDark, setIsDark
+    }
+
     return (
+        <ThemeContext.Provider value={value}>
         <div>
             <NavBar/>
             <div className="docwire__full-post-template">
@@ -53,7 +66,13 @@ function PostTemplate() {
                             </div>
                         </div>
                         <div className="docwire__full-post-template_md-content">
-                            <Markdown children={fetchPost.content}/>
+                            <Markdown options={{
+                                overrides: {
+                                    code: {
+                                        component: Code
+                                    }
+                                }
+                            }}>{fetchPost.content}</Markdown>
                         </div>
 
                     </div>
@@ -63,7 +82,7 @@ function PostTemplate() {
             </div>
             <Footer/>
         </div>
-
+        </ThemeContext.Provider>
     )
 }
 
