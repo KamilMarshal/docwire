@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/docwire/static/css/main.caa6430b.css",
-    "main.js": "/docwire/static/js/main.38aac318.js",
+    "main.css": "/docwire/static/css/main.b6f3bbed.css",
+    "main.js": "/docwire/static/js/main.a24dfec8.js",
     "static/media/Document.png": "/docwire/static/media/Document.2452c17051b90a5ad3ab.png",
     "static/media/OCR.png": "/docwire/static/media/OCR.302a81e8ffd43ab0ec32.png",
     "static/media/HTML.png": "/docwire/static/media/HTML.6a6cf6ff8efd10fb5520.png",
@@ -13,6 +13,8 @@
     "static/media/Github.png": "/docwire/static/media/Github.f968c33ddc634c5ec49e.png",
     "static/media/Mockup CLI.png": "/docwire/static/media/Mockup CLI.2c355d8a51e7f73edbfc.png",
     "static/media/preview.jpg": "/docwire/static/media/preview.cfd231bfde6a856d4189.jpg",
+    "static/media/code-blog.jpg": "/docwire/static/media/code-blog.ac9263a1227ae2eafb34.jpg",
+    "static/media/glasses-blog.jpg": "/docwire/static/media/glasses-blog.d44991fdaeb3720fd2d2.jpg",
     "static/media/slanted-mail-p-800.png": "/docwire/static/media/slanted-mail-p-800.a27915f7bb633a09d4a5.png",
     "static/media/Wings.png": "/docwire/static/media/Wings.aca91789c1f0c97c8a1c.png",
     "static/media/Ferid-headshot.png": "/docwire/static/media/Ferid-headshot.50585fdd0ed06688e284.png",
@@ -22,11 +24,11 @@
     "index.html": "/docwire/index.html",
     "static/media/Lightning.svg": "/docwire/static/media/Lightning.408599474eb00c16136b.svg",
     "static/media/facebook.svg": "/docwire/static/media/facebook.501cb74b0e528cb60b53.svg",
-    "main.caa6430b.css.map": "/docwire/static/css/main.caa6430b.css.map",
-    "main.38aac318.js.map": "/docwire/static/js/main.38aac318.js.map"
+    "main.b6f3bbed.css.map": "/docwire/static/css/main.b6f3bbed.css.map",
+    "main.a24dfec8.js.map": "/docwire/static/js/main.a24dfec8.js.map"
   },
   "entrypoints": [
-    "static/css/main.caa6430b.css",
-    "static/js/main.38aac318.js"
+    "static/css/main.b6f3bbed.css",
+    "static/js/main.a24dfec8.js"
   ]
 }
