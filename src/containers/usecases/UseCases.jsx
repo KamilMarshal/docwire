@@ -2,8 +2,8 @@ import './usecases.css';
 import React from "react";
 import {data} from '../../pages/Showcases/data'
 import {Link} from "react-router-dom";
-function UseCases() {
 
+function UseCases() {
     return (
         <div className='docwire__usecases'>
             <div className='docwire__usecases-hero'>
@@ -21,7 +21,7 @@ function UseCases() {
                     {
                         data.map(data =>
                             <div className="docwire__usecases-single">
-                                <Link to={data.linkName}>
+                                <Link to={`/showcases/${data.linkName}`}>
                                     <div className="docwire__usecases-single_wrapper">
                                         <div className="docwire__usecases-single_wrapper_img">
                                             <img src={require(`../../assets/${data.image}`)} alt={data.companyName}/>

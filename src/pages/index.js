@@ -7,7 +7,4 @@ export {default as NoPage} from './NoPage'
 export {default as NoBlogPage} from './NoPage'
 export {default as TermsOfService} from './TermsOfService'
 export {default as Privacy} from './Privacy'
-export {default as Harpo} from './Showcases/Harpo'
-export {default as Tausight} from './Showcases/Tausight'
-export {default as PwCSingapore} from './Showcases/PwCSingapore'
 

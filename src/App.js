@@ -15,7 +15,7 @@ import {
     Tausight,
     PwCSingapore
 } from './pages'
-import {PostTemplate, ScrollToTop} from "./containers";
+import {PostTemplate, ScrollToTop, ShowcaseTemplate} from "./containers";
 import FaviconLogo from './assets/FaviconLogo.png'
 
 function App() {
@@ -35,9 +35,7 @@ function App() {
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/blog/:id" element={<PostTemplate/>}/>
                     <Route path="/showcases" element={<Showcases/>}/>
-                    <Route path="/showcases/harpo" element={<Harpo/>}/>
-                    <Route path="/showcases/tausight" element={<Tausight/>}/>
-                    <Route path="/showcases/pwc-singapore" element={<PwCSingapore/>}/>
+                    <Route path="/showcases/:link" element={<ShowcaseTemplate/>}/>
                     <Route path="/terms-of-service" element={<TermsOfService/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
                     <Route path="/error404" element={<NoBlogPage/>}/>

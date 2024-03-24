@@ -2,7 +2,7 @@ export const data = [
 
     {
         "id": 0,
-        "linkName": "/showcases/harpo",
+        "linkName": "harpo",
         "image": 'Harpo logo.png',
         "companyName": "Harpo",
         "showcasesShortInfo": "How Harpo & Docwire software helps visually impaired people to read",
@@ -16,7 +16,7 @@ export const data = [
     },
     {
         "id": 1,
-        "linkName": "/showcases/tausight",
+        "linkName": "tausight",
         "image": 'Tausight.png',
         "companyName": "Tausight",
         "showcasesShortInfo": "How proper text extraction helps Tausight alert and prevent leakage of medical information",
@@ -31,7 +31,7 @@ export const data = [
     },
     {
         "id": 2,
-        "linkName": "/showcases/pwc-singapore",
+        "linkName": "pwc-singapore",
         "image": 'PWC logo.png',
         "companyName": "PwC Singapore",
         "showcasesShortInfo": "How PwC Singapore utilizes text extraction to embolden their audit & report system",

@@ -37,7 +37,6 @@ function PostTemplate() {
     const hasPrevious = currentIndex > 0;
     const hasNext = currentIndex < postlist.length - 1;
 
-    // Pobierz identyfikatory poprzedniego i następnego posta
     const previousPostId = hasPrevious ? postlist[currentIndex - 1].id : null;
     const nextPostId = hasNext ? postlist[currentIndex + 1].id : null;
 
