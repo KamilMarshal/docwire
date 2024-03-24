@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/docwire/static/css/main.b6f3bbed.css",
-    "main.js": "/docwire/static/js/main.a24dfec8.js",
+    "main.css": "/docwire/static/css/main.776ec72f.css",
+    "main.js": "/docwire/static/js/main.323248a1.js",
     "static/media/Document.png": "/docwire/static/media/Document.2452c17051b90a5ad3ab.png",
     "static/media/OCR.png": "/docwire/static/media/OCR.302a81e8ffd43ab0ec32.png",
     "static/media/HTML.png": "/docwire/static/media/HTML.6a6cf6ff8efd10fb5520.png",
@@ -24,11 +24,11 @@
     "index.html": "/docwire/index.html",
     "static/media/Lightning.svg": "/docwire/static/media/Lightning.408599474eb00c16136b.svg",
     "static/media/facebook.svg": "/docwire/static/media/facebook.501cb74b0e528cb60b53.svg",
-    "main.b6f3bbed.css.map": "/docwire/static/css/main.b6f3bbed.css.map",
-    "main.a24dfec8.js.map": "/docwire/static/js/main.a24dfec8.js.map"
+    "main.776ec72f.css.map": "/docwire/static/css/main.776ec72f.css.map",
+    "main.323248a1.js.map": "/docwire/static/js/main.323248a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6f3bbed.css",
-    "static/js/main.a24dfec8.js"
+    "static/css/main.776ec72f.css",
+    "static/js/main.323248a1.js"
   ]
 }
