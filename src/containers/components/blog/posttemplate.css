@@ -54,6 +54,7 @@
         display: flex;
         flex-direction: column;
         background-color: var(--color-lighter-bg);
+        border-radius: 8px;
 
         .docwire__full-post-template_title {
             .docwire__full-post-template_title-img {
@@ -160,26 +161,43 @@
                 font-weight: 600;
                 text-decoration: none;
             }
+        }
 
-            code {
-                width: 50%;
+    }
+        .docwire__full-post-template_buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+        .prev {
+            justify-content: left;
+        }
+        .next {
+            justify-content: right;
+        }
+
+        .docwire__full-post-template_buttons-btn {
+            -webkit-text-fill-color: inherit;
+            background-color: var(--color-lighter-bg);
+            width: 12em;
+            height: 3.5em;
+            max-height: 55px;
+            max-width: 190px;
+            font-size: min(1.1em, 16px);
+            color: var(--color-text-blog);
+            margin-top: 20px;
+            border-radius: 8px;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--font-family-Open-Sans);
+            display: flex;
+            padding: 9px 15px;
+            text-decoration: none;
+            line-height: inherit;
+            cursor: pointer;
+            .hidden {
+                display: none;
             }
         }
-    }
 
-
-}
-
-.docwire__full-post-template_other-posts {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin-right: -3px;
-    display: flex;
-    width: 30%;
-}
-
-.divPadding {
-    padding-left: 20%;
-    padding-right: 20%;
 }
