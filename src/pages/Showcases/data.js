@@ -48,7 +48,7 @@ export const data = [
 
 // {
 //     "id": ,
-//     "linkName":"/showcase/",
+//     "linkName":"",
 //     "image": '',
 //     "companyName": "",
 //     "showcasesShortInfo": "",

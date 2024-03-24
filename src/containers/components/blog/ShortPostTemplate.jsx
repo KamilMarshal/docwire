@@ -6,7 +6,6 @@ import Markdown from "react-markdown";
 function ShortPostTemplate(props) {
     props = props.props
     const link = "/blog/" + props.id
-    console.log(link)
     return (
         <div className="docwire__short-post-template">
             <div className="docwire__short-post-template_top">
