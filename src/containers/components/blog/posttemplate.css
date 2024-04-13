@@ -19,7 +19,7 @@
 
     .docwire__full-post-template_nav {
         display: flex;
-        width: 100%;
+        width: 80%;
         padding-top: 1rem;
         padding-bottom: 1rem;
         justify-content: center;
@@ -164,40 +164,38 @@
         }
 
     }
-        .docwire__full-post-template_buttons {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-        }
-        .prev {
-            justify-content: left;
-        }
-        .next {
-            justify-content: right;
-        }
+}
 
-        .docwire__full-post-template_buttons-btn {
-            -webkit-text-fill-color: inherit;
-            background-color: var(--color-lighter-bg);
-            width: 12em;
-            height: 3.5em;
-            max-height: 55px;
-            max-width: 190px;
-            font-size: min(1.1em, 16px);
-            color: var(--color-text-blog);
-            margin-top: 20px;
-            border-radius: 8px;
-            justify-content: center;
-            align-items: center;
-            font-family: var(--font-family-Open-Sans);
-            display: flex;
-            padding: 9px 15px;
-            text-decoration: none;
-            line-height: inherit;
-            cursor: pointer;
-            .hidden {
-                display: none;
-            }
-        }
+.docwire__full-post-template_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
 
+.prev {
+    justify-content: left;
+}
+
+.next {
+    justify-content: right;
+}
+
+.docwire__full-post-template_buttons-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 9px 15px !important;
+    background-color: var(--color-lighter-bg);
+    width: 12em;
+    height: 3.5em;
+    max-height: 55px;
+    max-width: 190px;
+    font-size: min(1.1em, 16px);
+    color: var(--color-text-blog);
+    margin-top: 20px;
+    border-radius: 8px;
+    font-family: var(--font-family-Open-Sans);
+    text-decoration: none;
+    line-height: inherit;
+    cursor: pointer;
 }
