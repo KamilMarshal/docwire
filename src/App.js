@@ -10,10 +10,7 @@ import {
     NoBlogPage,
     Blog,
     TermsOfService,
-    Privacy,
-    Harpo,
-    Tausight,
-    PwCSingapore
+    Privacy
 } from './pages'
 import {PostTemplate, ScrollToTop, ShowcaseTemplate} from "./containers";
 import FaviconLogo from './assets/FaviconLogo.png'

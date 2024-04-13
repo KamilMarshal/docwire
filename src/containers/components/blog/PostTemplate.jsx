@@ -93,7 +93,7 @@ function PostTemplate() {
                             {
                                 hasPrevious && (
                                     <Link to={linkPrev}>
-                                        <div className={`docwire__full-post-template_buttons-btn ${hasPrevious ? "" : "hidden"}`}>
+                                        <div className={`docwire__full-post-template_buttons-btn`}>
                                             Previous post
                                         </div>
                                     </Link>
@@ -101,7 +101,7 @@ function PostTemplate() {
                             } {
                                 hasNext && (
                                     <Link to={linkNext}>
-                                        <div className={`docwire__full-post-template_buttons-btn ${hasNext ? "" : "hidden"}`}>
+                                        <div className={`docwire__full-post-template_buttons-btn`}>
                                         Next post
                                         </div>
                                     </Link>
