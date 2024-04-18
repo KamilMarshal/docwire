@@ -103,8 +103,8 @@
 
                 img {
                     margin-right: 15px;
-                    width: 4vw;
-                    height: 4vw;
+                    width: 52px;
+                    height: 52px;
                 }
 
                 .docwire__full-post-template_credentials-author-text {
@@ -198,4 +198,14 @@
     text-decoration: none;
     line-height: inherit;
     cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .docwire__full-post-template_main {
+        width: 95%;
+    }
+    .docwire__full-post-template_main-contents {
+        width: 95%;
+    }
+
 }
