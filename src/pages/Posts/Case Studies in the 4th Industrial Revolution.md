@@ -25,20 +25,3 @@ Cities worldwide are exploring autonomous vehicles (AVs) to improve transportati
 ## Conclusion
 
 These case studies highlight the transformative power of the 4th Industrial Revolution across various sectors. From smart manufacturing to personalized healthcare and sustainable agriculture, innovative technologies are reshaping industries and improving lives.
-
-<Code language="cpp">
-#include "docwire.h"
-#include <cassert>
-#include <sstream>
-
-int main(int argc, char* argv[])
-{
-  using namespace docwire;
-  std::stringstream out_stream;
-
-  Input("data_processing_definition.doc") | ParseDetectedFormat<OfficeFormatsParserProvider>() | PlainTextExporter() | Output(out_stream);
-  assert(out_stream.str() == "Data processing refers to the activities performed on raw data to convert it into meaningful information. It involves collecting, organizing, analyzing, and interpreting data to extract useful insights and support decision-making. This can include tasks such as sorting, filtering, summarizing, and transforming data through various computational and statistical methods. Data processing is essential in various fields, including business, science, and technology, as it enables organizations to derive valuable knowledge from large datasets, make informed decisions, and improve overall efficiency.\n\n");
-
-  return 0;
-}
-</Code>
