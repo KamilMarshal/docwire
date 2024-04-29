@@ -1,0 +1,298 @@
+.docwire__showcase-template {
+    height: auto;
+    min-height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /*padding-top: 15vh;*/
+    display: flex;
+    overflow: visible;
+    width: 100%;
+}
+
+.docwire__showcase-template_header {
+    width: 80vw;
+    height: auto;
+    max-width: 1126px;
+    flex-direction: column;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        letter-spacing: -4px;
+        text-transform: capitalize;
+        white-space: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: var(--font-family);
+        font-size: 7em;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    h2 {
+        max-width: none;
+        color: #7c7c7c;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 0;
+        font-family: var(--font-family-Open-Sans);
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+}
+
+.docwire__showcase-template_header-buttons {
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+
+    .link {
+        align-items: center;
+        text-decoration: none;
+        display: flex;
+        max-width: 100%;
+        font-family: var(--font-family-Open-Sans);
+
+        div {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            font-family: var(--font-family);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+        }
+
+        .icon {
+            margin-left: 8px;
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+            border: 0;
+        }
+    }
+
+    .cta {
+        width: 190px;
+        height: 55px;
+        background-image: var(--gradient-bar);
+        color: #fff;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+    }
+}
+
+.docwire__showcase-template_content {
+    width: 80vw;
+    height: auto;
+    max-width: 1126px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+
+    a {
+        color: var(--orange);
+        margin-top: 0;
+        text-decoration: none;
+        display: flex;
+
+        .text {
+            align-items: center;
+            font-family: var(--font-family);
+            font-size: 16px;
+            display: flex;
+            font-weight: 600;
+        }
+
+        .arrow {
+            margin-left: 8px;
+            display: flex;
+        }
+    }
+}
+
+.docwire__showcase-template_content-left {
+    width: 30%;
+    max-height: 400px;
+    background-color: var(--color-lighter-bg);
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 20px;
+    display: flex;
+    position: sticky;
+
+    .top_left {
+        img {
+            width: 150px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            vertical-align: middle;
+            display: inline-block;
+            border: 0;
+        }
+
+        p {
+            height: auto;
+            max-height: none;
+            color: var(--grey);
+            object-fit: fill;
+            font-family: var(--font-family-Open-Sans);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.6;
+            overflow: hidden;
+        }
+    }
+}
+
+
+.docwire__showcase-template_content-right {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: var(--color-lighter-bg);
+
+    .question {
+        flex-direction: row;
+        display: flex;
+
+        h4 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 20px;
+            margin-right: 5px;
+            font-family: var(--font-family);
+            font-size: min(2em, 32px);
+            line-height: 1;
+        }
+    }
+
+    .answer {
+        height: auto;
+        max-height: none;
+        color: var(--grey);
+        object-fit: fill;
+        font-family: var(--font-family-Open-Sans);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.6;
+        overflow: hidden;
+
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .docwire__showcase-template_header {
+        width: 90vw;
+
+        h1 {
+            font-size: 64px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .docwire__showcase-template_content {
+        width: 90vw;
+    }
+
+    .top_left p {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .docwire__showcase-template_content-right.question h4 {
+        margin-bottom: 10px;
+    }
+
+    .docwire__showcase-template_content-right.answer p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .docwire__showcase-template_content {
+        flex-direction: column-reverse;
+    }
+
+    .docwire__showcase-template_content-left {
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .top_left {
+        flex-direction: row;
+        align-items: flex-start;
+        display: flex;
+
+        img {
+            margin-right: 20px;
+        }
+    }
+
+    .docwire__showcase-template_content-right {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .docwire__showcase-template_header h1 {
+        h1 {
+            font-size: 42px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
+
+    .docwire__showcase-template_header-buttons {
+        width: auto;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .docwire__showcase-template_content {
+        margin-top: 50px;
+    }
+
+    .top_left {
+        flex-direction: column;
+
+        img {
+            width: 75px;
+        }
+    }
+    .docwire__showcase-template_content-right.question h4 {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+}

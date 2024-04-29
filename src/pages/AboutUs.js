@@ -1,11 +1,12 @@
-import {Nav, Slider} from "../containers";
+import {Nav, AboutUsSection, Footer} from "../containers";
 
 function AboutUs() {
+    document.title = "About Us | Docwire"
     return (
         <div>
             <Nav />
-            <h1>AboutUs</h1>
-            <Slider />
+            <AboutUsSection />
+            <Footer />
         </div>
     )
 }

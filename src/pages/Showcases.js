@@ -1,11 +1,12 @@
-import {Nav, Slider} from "../containers";
+import {Footer, Nav, UseCases,} from "../containers";
 
 function Showcases() {
+    document.title = "Showcases | Docwire"
     return (
         <div>
-            <Nav />
-            <h1>Showcases</h1>
-            <Slider />
+            <Nav/>
+            <UseCases/>
+            <Footer/>
         </div>
     )
 }

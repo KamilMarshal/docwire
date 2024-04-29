@@ -99,3 +99,34 @@ h2 {
     font-size: 32px;
     line-height: 1;
 }
+
+@media screen and (max-width: 1050px) {
+    .docwire__contact-bg {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 3rem;
+        align-items: center;
+    }
+    .docwire__contact-text_section {
+        font-size: max(2.5em, 20px)
+    }
+    .docwire__contact-text_h1
+    {
+        letter-spacing: normal;
+    }
+    .docwire__contact-text {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .docwire__contact-form {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 95%;
+    }
+    .docwire__contact-form_form {
+        max-width: 95%;
+    }
+}

@@ -23,7 +23,7 @@ function WingsSection() {
                     </p>
                 </div>
                 <div className="docwire__wingssection-container_wings">
-                    <img src={Wings} alt="Floating Wings" />
+                    <img src={Wings} alt="Floating Wings"/>
                 </div>
             </div>
         </div>

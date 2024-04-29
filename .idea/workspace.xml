@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Update mobile responsibility">
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/components/contactUs/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/emailTemplates/contactUsEmail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/emailTemplates/thanksForYourEmail.jsx" afterDir="false" />
+    <list default="true" id="dcf11f40-3d00-43e8-89e4-a926f2a5d36b" name="Changes" comment="Creating Blog part 2/6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/contactUs/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/components/blog/posttemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/components/blog/posttemplate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -36,16 +28,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/containers/components/AboutUs/aboutussection.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -59,35 +55,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.App.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "M:/Repos/docwire/src/containers/components/contactUs",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.deploy.executor": "Run",
-    "npm.install --legacy-peer-deps.executor": "Debug",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature/blog&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Repos/docwire/src/containers/components/blog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install --legacy-peer-deps.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Marshal\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\233.13135.92\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -99,19 +97,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="M:\Repos\docwire\src\containers\components\contactUs" />
-      <recent name="M:\Repos\docwire\public" />
-      <recent name="M:\Repos\docwire\src\components" />
+      <recent name="M:\Repos\docwire\src\containers\components\blog" />
+      <recent name="M:\Repos\docwire\src\containers\CTA" />
+      <recent name="M:\Repos\docwire\src\containers\components\aboutUs and derived" />
+      <recent name="M:\Repos\docwire\src\pages" />
+      <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\Repos\docwire\src\containers\components\NoPage" />
+      <recent name="M:\Repos\docwire" />
+      <recent name="M:\Repos\docwire\src" />
       <recent name="M:\Repos\docwire\src\containers" />
       <recent name="M:\Repos\docwire\src\emailTemplates" />
-      <recent name="M:\Repos\docwire\src\containers\slider\home" />
-      <recent name="M:\Repos\docwire\src\containers\components" />
-      <recent name="M:\Repos\docwire\src\containers\article\home" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -180,6 +180,18 @@
       <workItem from="1709585340303" duration="1092000" />
       <workItem from="1709990544516" duration="756000" />
       <workItem from="1709991378525" duration="7915000" />
+      <workItem from="1710010253260" duration="286000" />
+      <workItem from="1710011107488" duration="151000" />
+      <workItem from="1710167553130" duration="19918000" />
+      <workItem from="1710273996776" duration="11042000" />
+      <workItem from="1710358949533" duration="8697000" />
+      <workItem from="1710600771678" duration="27218000" />
+      <workItem from="1710633179900" duration="676000" />
+      <workItem from="1710704590236" duration="747000" />
+      <workItem from="1710884893480" duration="4269000" />
+      <workItem from="1710949989629" duration="13209000" />
+      <workItem from="1713005029915" duration="448000" />
+      <workItem from="1713006229173" duration="3918000" />
     </task>
     <task id="LOCAL-00001" summary="Create project initial structure">
       <option name="closed" value="true" />
@@ -205,11 +217,118 @@
       <option name="project" value="LOCAL" />
       <updated>1708626737359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fixed">
+      <option name="closed" value="true" />
+      <created>1710195961836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710195961836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Small but meaningful change">
+      <option name="closed" value="true" />
+      <created>1710196176802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710196176802</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Creating About Us page">
+      <option name="closed" value="true" />
+      <created>1710277051689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710277051689</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creating No Page site">
+      <option name="closed" value="true" />
+      <created>1710279150649</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710279150649</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creating Terms Of Service site">
+      <option name="closed" value="true" />
+      <created>1710282180305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710282180305</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updating mobile responsiveness">
+      <option name="closed" value="true" />
+      <created>1710282975674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710282975674</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creating Privacy Policy site">
+      <option name="closed" value="true" />
+      <created>1710283459023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710283459023</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating Footer site">
+      <option name="closed" value="true" />
+      <created>1710285441151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710285441151</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Creating CTA section">
+      <option name="closed" value="true" />
+      <created>1710361483120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361483120</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Creating &quot;So, What Can It Do?&quot; section">
+      <option name="closed" value="true" />
+      <created>1710367068411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710367068411</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Creating scroll to top functionality">
+      <option name="closed" value="true" />
+      <created>1710885825236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710885825236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Creating Blog part 1/6">
+      <option name="closed" value="true" />
+      <created>1710888676190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710888676190</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Creating Blog part 2/6">
+      <option name="closed" value="true" />
+      <created>1710950988014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710950988014</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -228,6 +347,20 @@
     <MESSAGE value="Create basic navigation bar, add favicon&#10;&#10;NavBar is unresponsive --future add mobile feature" />
     <MESSAGE value="Update &quot;unlock the power&quot; section" />
     <MESSAGE value="Add &quot;WingsSection&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;WingsSection&quot;" />
+    <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually" />
+    <MESSAGE value="The form sending emails is working&#10;- used Emailjs service&#10;- my fancy email templates are not used :(, bcs I can't force &quot;Resend&quot; to work, either way its working actually&#10;- small bugs are up to be fix" />
+    <MESSAGE value="Small but meaningful change" />
+    <MESSAGE value="Creating About Us page" />
+    <MESSAGE value="Creating No Page site" />
+    <MESSAGE value="Creating Terms Of Service site" />
+    <MESSAGE value="Updating mobile responsiveness" />
+    <MESSAGE value="Creating Privacy Policy site" />
+    <MESSAGE value="Creating Footer site" />
+    <MESSAGE value="Creating CTA section" />
+    <MESSAGE value="Creating &quot;So, What Can It Do?&quot; section" />
+    <MESSAGE value="Creating scroll to top functionality" />
+    <MESSAGE value="Creating Blog part 1/6" />
+    <MESSAGE value="Creating Blog part 2/6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Blog part 2/6" />
   </component>
 </project>

@@ -1,10 +1,12 @@
-import {Nav, Contact} from "../containers";
+import {Nav, Contact, Footer} from "../containers";
 
 function ContactUs() {
+    document.title = "Contact Us | Docwire"
     return (
         <div>
             <Nav />
             <Contact />
+            <Footer />
         </div>
     )
 }

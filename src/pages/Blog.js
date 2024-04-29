@@ -1,11 +1,13 @@
-import {Nav, Slider} from "../containers";
+import {Footer, Nav, PostList} from "../containers";
+import React from "react";
 
 function Blog() {
+    document.title = "Blog | Docwire"
     return (
         <div>
             <Nav />
-            <h1>Blog</h1>
-            <Slider />
+            <PostList/>
+            <Footer />
         </div>
     )
 }

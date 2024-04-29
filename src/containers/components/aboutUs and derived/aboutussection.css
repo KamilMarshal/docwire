@@ -1,0 +1,113 @@
+.docwire__aboutus {
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.docwire__aboutus-content {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    max-width: 1126px;
+}
+
+.about {
+    text-align: left;
+    font-size: 5.5em;
+    color: #fff;
+    letter-spacing: -4px;
+    text-transform: capitalize;
+    white-space: normal;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.history {
+    width: auto;
+    max-width: 1126px;
+    color: #9b9b9b;
+    margin-bottom: 100px;
+    font-family: var(--font-family-Open-Sans);
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+    font-size: min(1.2em, 20px);
+}
+
+.who {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    font-family: var(--font-family);
+    line-height: 1;
+    font-size: min(2em, 32px);
+}
+
+.paragraph {
+    height: auto;
+    max-height: none;
+    color: #9b9b9b;
+    object-fit: fill;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    overflow: hidden;
+    font-size: min(1em, 16px);
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+    .docwire__aboutus-content {
+        width: 90vw;
+    }
+    .about {
+        align-self: flex-start;
+        font-size: 64px;
+    }
+    .who {
+        margin-bottom: 10px;
+    }
+    .history {
+        font-size: min(1.2em, 20px);
+    }
+    .paragraph {
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        letter-spacing: -3px;
+    }
+    .history {
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .about {
+        text-align: left;
+        letter-spacing: -1px;
+        font-size: 2rem;
+    }
+    .who {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+    .history {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .paragraph {
+        margin-bottom: 1rem;
+    }
+}

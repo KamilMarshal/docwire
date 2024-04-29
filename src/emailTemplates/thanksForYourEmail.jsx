@@ -13,7 +13,9 @@ import {
 import * as React from "react";
 import {Tailwind} from "@react-email/tailwind";
 
-export const thanksForYourEmail = ({username}) => {
+
+
+export const ThanksForYourEmail = ({username}) => {
     const previewText = `Thank you ${username} for Contacting DocWire!`;
 
     return (
@@ -116,4 +118,4 @@ const footer = {
     color: "#8898aa",
     fontSize: "12px",
 }
-export default thanksForYourEmail
+export default ThanksForYourEmail

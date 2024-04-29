@@ -79,9 +79,8 @@
         width: 100vw;
         padding-left: 10vw;
         padding-right: 10vw;
-    }
-
-    img {
-        display: none;
+        img {
+            display: none;
+        }
     }
 }

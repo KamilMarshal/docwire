@@ -1,6 +1,7 @@
 import './contact.css'
 import Form from "./Form";
 function Contact() {
+
     return (
         <div className="docwire__contact">
             <div className="docwire__contact-bg">

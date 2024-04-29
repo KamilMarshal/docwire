@@ -1,10 +1,10 @@
-import {Nav} from "../containers";
+import {NoPageComponent} from "../containers";
 
 function NoPage() {
+        document.title = "Page not found"
     return (
         <div>
-            <Nav />
-            <h1>NoPage</h1>
+            <NoPageComponent />
         </div>
     )
 }

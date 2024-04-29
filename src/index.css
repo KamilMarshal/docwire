@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
 
 :root {
-  --font-family: 'Helvetica';
-  --font-family-Open-Sans: 'Open Sans';
+    --font-family: 'Helvetica';
+    --font-family-Open-Sans: 'Open Sans';
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(283.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  --gradient-scroll-hover: linear-gradient(283deg, rgba(163,78,255,1) -13.86%, rgba(241,131,73,1) 99.55%);
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(283.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    --gradient-scroll-hover: linear-gradient(283deg, rgba(163, 78, 255, 1) -13.86%, rgba(241, 131, 73, 1) 99.55%);
 
-  --color-bg: #040C18;
-  --color-footer : #031B34;
-  --color-blog: #042c54;
-  --color-text: white;
-  --color-subtext: #FF8A71;
+    --color-bg: #040C18;
+    --color-lighter-bg: #151d29;
+    --color-footer: #031B34;
+    --color-blog: #042c54;
+    --color-text: white;
+    --color-text-blog: #D3D3D3;
+    --color-subtext: #FF8A71;
+    --grey: #7c7c7c;
+    --orange: #ff9f1c;
+    --purple: #9747ff;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-bg);
+    background: var(--color-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--gradient-bar);
-  border-radius: 4px;
+    background: var(--gradient-bar);
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--gradient-scroll-hover);
-  border-radius: 4px;
+    background: var(--gradient-scroll-hover);
+    border-radius: 4px;
 }
